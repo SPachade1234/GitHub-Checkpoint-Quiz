@@ -11,4 +11,8 @@ public class GitTest{
 	public String toString(){
 		return statement;
 	}
+
+	public GitTest(String statement){
+		this.statement = statement;
+	}
 }
